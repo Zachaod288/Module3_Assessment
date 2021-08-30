@@ -1,0 +1,40 @@
+#header-nav {
+    background-color: grey;
+    border-radius: 0;
+    border: 0;
+  }
+
+#nav-list a:hover {
+background: #E7E7E7;
+}
+#nav-list a span {
+font-size: 1.8em;
+}
+
+.bigcon {
+    border: solid black;
+    background-color: rgb(207, 207, 207);
+    margin: 1%;
+}
+
+h2, .p1 {
+    text-align: center;
+}
+
+
+
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+      padding-top: 10px;
+      font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+    
+    #collapsable-nav a { /* Collapsed nav menu text */
+        font-size: 1.2em;
+    }
+}
